@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Progect1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int age = 19;
+            string gender = "мужской";
+            string name = "Максим";
+            string surename = "Федосеенков";
+            string group = "02БИд4220";
+            string weight = "73 кг";
+            string city = "Москва";
+            Console.WriteLine($"Имя:{name} фамилия:{surename} пол:{gender} группа:{group} вес:{weight} город:{city} возраст:{age} лет");
+            Console.WriteLine($"Меня зовут {name} {surename}. Мой возраст {age}. Мой пол {gender}. Мой вес {weight}. Моя группа {group}. Хочу уйти с пары по адресу {city}");
+
+
+
+
+
+        }
+    }
+}
